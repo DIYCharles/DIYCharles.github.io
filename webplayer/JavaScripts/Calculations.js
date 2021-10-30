@@ -30,3 +30,7 @@ function setlinks() {
 
     OutputValue11.appendChild(vliframe1);
     }
+    function openTheWindow() {
+        var myWindow = window.open("https://diycharles.github.io/webplayer/MultiMedia.html?","_blank",
+    "toolbar,scrollbars,resizable,top=500,left=500");
+    }
