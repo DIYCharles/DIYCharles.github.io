@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Multi Streamer</title>
+  <SCRIPT TYPE="text/javascript" SRC="JavaScripts/Calculations.js"></SCRIPT>
+</head>
+<body>
+  <div id="container">
+    <header> Enter Video Urls
+    	<nav><!-- Insert navigation here --></nav>
+    </header>
+    <div id="main" role="main">
+        
+
+        <FORM ONSUBMIT="setlinks(); return false;">
+          <INPUT TYPE="text" ID="vlink1" value="Video Link 1">
+          <INPUT TYPE="text" ID="vlink2" value="Video Link 2">
+          <INPUT TYPE="submit" VALUE="Set links">
+        </FORM>
+        
+        <FORM ONSUBMIT="setview(); return false;">
+          <INPUT TYPE="text" ID="vid1 %" value="Video Link 1 % vof screen">
+          <INPUT TYPE="submit" VALUE="Set view">
+        </FORM>
+
+        <!-- Output field -->
+        <DIV ID="OutputValue1"></DIV>
+        <DIV ID="OutputValue2"></DIV>
+        <container style="width: 45%; float: left;"><DIV  ID="OutputValue11" ></DIV>    
+         </container>
+         <container style="width: 45%; float: left;"><DIV  ID="OutputValue22" ></DIV>    
+         </container>
+
+
+        </div>
+
+        
+        
+    </div>
+    <footer>
+    </footer>
+  </div>
+
+
+<!-- Insert JavaScript here -->
+  
+
+</body>
+</html>
+
+
