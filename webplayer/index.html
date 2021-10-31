@@ -14,10 +14,19 @@
     </header>
     <div id="main" role="main">
         
-
+      
         <FORM ONSUBMIT="setlinks(); return false;">
+          <select name="sourcenum" id="sourcenum">
+            <option value=2 >2 sources</option>
+            <option value=3 >3 sources</option>
+            <option value=4 >4 sources</option>
+            <option value=5 >5 sources</option>
+            </select>
           <INPUT TYPE="text" ID="vlink1" value="https://www.youtube.com/embed/5qap5aO4i9A">
           <INPUT TYPE="text" ID="vlink2" value="https://www.youtube.com/embed/qyf5CtkXGtA">
+            <INPUT TYPE="text" ID="vlink3" value="https://www.youtube.com/embed/5qap5aO4i9A">
+              <INPUT TYPE="text" ID="vlink4" value="https://www.youtube.com/embed/5qap5aO4i9A">
+                <INPUT TYPE="text" ID="vlink5" value="https://www.youtube.com/embed/5qap5aO4i9A">
           <INPUT TYPE="submit" VALUE="Set links">
         </FORM>
         
@@ -29,11 +38,28 @@
         <!-- Output field -->
         <DIV ID="OutputValue1"></DIV>
         <DIV ID="OutputValue2"></DIV>
-        <container style="width: 50%; float: left;"><DIV  ID="OutputValue11" ></DIV>    
-         </container>
-         <container style="width: 50%; float: left;"><DIV  ID="OutputValue22" ></DIV>    
+        <DIV ID="OutputValue3"></DIV>
+        <DIV ID="OutputValue4"></DIV>
+
+        <DIV ID="OutputValuep"></DIV>
+        <DIV ID="OutputValues"></DIV>
+
+        <div style="width: 100%;">
+        <container ID="cont1" >
+          <DIV  ID="OutputValue11" ></DIV>    
          </container>
 
+         <container ID="cont2" >
+          <DIV  ID="OutputValue22" ></DIV>    
+         </container>
+
+         <container ID="cont3" >
+          <DIV  ID="OutputValue33" ></DIV>    
+         </container>
+         <container ID="cont4" >
+          <DIV  ID="OutputValue44" ></DIV>    
+         </container>
+</div>
 
         </div>
         <button style="width: 100%; text-align: center; background-color:#c9c9c9; border-color: #313131; border-width: 5; " onclick="openTheWindow()">Click this button to open in borderless mode then press F11</button>
