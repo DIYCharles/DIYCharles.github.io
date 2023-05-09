@@ -1,0 +1,15 @@
+BEGIN:VCARD
+N:Info;My;Contact;;
+FN:MyContactInfo
+EMAIL;type=INTERNET;type=HOME;type=pref:Email@yeetsauce.com
+TEL;type=CELL;type=VOICE;type=pref:4204206969
+ADR;type=HOME;type=pref:;;;Bigfoot;Texas;;
+LOGO;TYPE=JPEG;VALUE=URI:https://raw.githubusercontent.com/DIYCharles/DIYCharles.github.io/master/vcardtemplate/438362674.jpeg
+PHOTO;TYPE=JPEG;VALUE=URI:https://raw.githubusercontent.com/DIYCharles/DIYCharles.github.io/master/vcardtemplate/438362674.jpeg
+TEL;TYPE=CELL:4204206969
+LABEL;CHARSET=UTF-8;TYPE=HOME:Home
+LABEL;CHARSET=UTF-8;TYPE=HOME:Home AddressLabel
+ADR;CHARSET=UTF-8;TYPE=WORK:;;;Bigfoot;Texas;;
+NOTE;CHARSET=UTF-8:If found please call\, text\, or email me\. I will come pick it up for a \$50 reward\. \n\n Thank you so much\!\!
+REV:2023-05-08T00:36:39.568Z
+END:VCARD
