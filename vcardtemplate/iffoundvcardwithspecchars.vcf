@@ -1,6 +1,4 @@
 BEGIN:VCARD
-VERSION:3.0
-PRODID:-//AppleInc.//iPhoneOS16.2//EN
 N:Name;My;Full;Sir;III
 FN:SirMyFullNameIII
 EMAIL;type=INTERNET;type=HOME;type=pref:MyEmail@yeet.com
